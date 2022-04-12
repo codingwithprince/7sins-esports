@@ -1,8 +1,9 @@
 import React from 'react'
+import Achievements from '../components/Achievements'
 
 const achievements = () => {
   return (
-    <div>achievements</div>
+    <Achievements/>
   )
 }
 

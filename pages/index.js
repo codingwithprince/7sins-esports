@@ -1,6 +1,8 @@
 import Head from 'next/head'
+import Achievements from '../components/Achievements'
 import Hero from '../components/Hero'
-
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
 export default function Home() {
   return (
@@ -12,6 +14,7 @@ export default function Home() {
       </Head>
 
       <main >
+        <Achievements />
         <Hero />
       </main>
     </div>

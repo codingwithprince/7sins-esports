@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import { Fade } from 'react-slideshow-image';
 
 const fadeImages = [
@@ -19,15 +19,17 @@ const fadeImages = [
 const Hero = () => {
   return (
     <div className="slide-container">
+      <h2 className="text-center font-bold text-large md:text-4xl text-gray-800 uppercase py-3 md:p-10 p-2">Line ups</h2>
       <Fade>
         {fadeImages.map((fadeImage, index) => (
           <div className="each-fade" key={index}>
-            <div className="image-container">
+            <div className="image-container items-center flex justify-center">
               <img className='w-full' src={fadeImage.url} />
             </div>
           </div>
         ))}
       </Fade>
+      <button className="bg-gray-800 py-1 px-3 text-white rounded text-xs m-2">More Details</button>
     </div>
   )
 }
