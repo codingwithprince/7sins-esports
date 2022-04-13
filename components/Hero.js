@@ -19,7 +19,7 @@ const fadeImages = [
 const Hero = () => {
   return (
     <div className="slide-container">
-      <h2 className="text-center font-bold text-large md:text-4xl text-gray-800 uppercase py-3 md:p-10 p-2">Line ups</h2>
+      <h2 className="text-center font-bold text-large md:text-4xl text-gray-400 uppercase py-3 md:p-10 p-2">Line ups</h2>
       <Fade>
         {fadeImages.map((fadeImage, index) => (
           <div className="each-fade" key={index}>

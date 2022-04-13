@@ -3,6 +3,7 @@ import Achievements from '../components/Achievements'
 import Hero from '../components/Hero'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import Welcome from '../components/Welcome';
 
 export default function Home() {
   return (
@@ -13,7 +14,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main >
+      <main className='bg-gray-900'>
+        <Welcome />
         <Achievements />
         <Hero />
       </main>

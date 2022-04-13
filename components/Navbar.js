@@ -36,7 +36,7 @@ export const Navbar = () => {
         </div>
         {/* === responsive menu items ===  */}
         {navOpen && <div onClick={()=> navbar()} className='md:hidden w-full absolute top-10 right-0 bg-gray-900'>
-          <ul className='flex-col text-right gap-2 pt-3'>
+          <ul className='flex-col text-right gap-2 pt-3 pr-3'>
               <li className='uppercase ease-in duration-200 border-b-2 border-transparent hover:bg-gray-600 py-2 hover:border-indigo-500 px-3'><Link href="/"><a>Home</a></Link></li>
               <li className='uppercase ease-in duration-200 border-b-2 border-transparent hover:bg-gray-600 py-2 hover:border-indigo-500 px-3'><Link href="/lineup"><a>Line up</a></Link></li>
               <li className='uppercase ease-in duration-200 border-b-2 border-transparent hover:bg-gray-600 py-2  hover:border-indigo-500 px-3'><Link href="/achievements"><a>Achievements</a></Link></li>
