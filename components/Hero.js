@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { Fade } from 'react-slideshow-image';
 
@@ -18,8 +19,8 @@ const fadeImages = [
 
 const Hero = () => {
   return (
-    <div className="slide-container">
-      <h2 className="text-center font-bold text-large md:text-4xl text-gray-400 uppercase py-3 md:p-10 p-2">Line ups</h2>
+    <div className="slide-container md:w-[80%] block m-auto rounded">
+      <h2 className="text-center font-bold text-large md:text-4xl font-mono text-gray-400 uppercase py-3 md:p-10 p-2">Line ups</h2>
       <Fade>
         {fadeImages.map((fadeImage, index) => (
           <div className="each-fade" key={index}>
@@ -29,7 +30,6 @@ const Hero = () => {
           </div>
         ))}
       </Fade>
-      <button className="bg-gray-800 py-1 px-3 text-white rounded text-xs m-2">More Details</button>
     </div>
   )
 }

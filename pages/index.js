@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from "next/link";
 import Achievements from '../components/Achievements'
 import Hero from '../components/Hero'
 import "slick-carousel/slick/slick.css"; 
@@ -14,10 +15,17 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className='bg-gray-900'>
+      <main className='bg-gray-900 pb-5'>
         <Welcome />
         <Achievements />
-        <Hero />
+        {/* === lineup === */}
+        <div>
+          <Hero />
+          <Link href='/lineup'>
+            <button className="block m-auto bg-gray-800 py-2 px-3 text-white rounded text-xs my-3">More Details</button>
+          </Link>
+        </div>
+      
       </main>
     </div>
   )
