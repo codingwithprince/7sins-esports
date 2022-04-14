@@ -16,10 +16,12 @@ export const Navbar = () => {
   return (
     <nav className='sticky top-0 z-50 bg-gray-900 text-white py-2 px-[5%] flex justify-between items-center'>
         {/* === logo === */}
-        <div className='flex items-center'>
-          <img src='/images/logo.png' height={40} width={40} alt="logo" />
-          <span className='pl-2 font-bold'>7Sins Esports</span>
-        </div>
+        <Link href='/'>
+          <div className='flex items-center cursor-pointer'>
+            <img src='/images/logo.png' height={40} width={40} alt="logo" />
+            <span className='pl-2 font-mono font-bold'>7Sins Esports</span>
+          </div>
+        </Link>
         {/* === menu buttons === */}
         <div className='md:hidden'>
           {navOpen ? <CloseIcon onClick={()=> navbar()} /> : <MenuIcon onClick={()=> navbar()} />}

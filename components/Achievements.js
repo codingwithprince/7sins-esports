@@ -56,7 +56,7 @@ export default class Achievements extends Component {
          {fadeImages.map(data => (
            <div className="m-2 gap-2" key={data.caption}>
              <div className="m-1 pb-5 md:pb-10 md:m-5 bg-gray-800 rounded">
-                <img className="object-scale-down overflow-hidden" src={`${data.url}`} />
+                <img className="object-scale-down overflow-hidden drop-shadow-lg" src={`${data.url}`} />
                 <p className="pl-2 text-sm md:text-2xl absolute md:bottom-10 text-white font-mono">By {data.caption}</p>
              </div>
           
