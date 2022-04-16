@@ -11,15 +11,12 @@ export const Footer = () => {
           </Link>
           <h3 className='text-white font-bold font-mono'>7Sins Esports</h3>
         </div>
-        <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
+        <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-4">
           <div>
-            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
+            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Developer</h2>
             <ul className="text-gray-600 dark:text-gray-400">
               <li className="mb-4">
-                <Link href="https://flowbite.com" className="hover:underline">Flowbite</Link>
-              </li>
-              <li>
-                <Link href="https://tailwindcss.com/" className="hover:underline">Tailwind CSS</Link>
+                <Link href="https://www.facebook.com/profile.php?id=100008591616145" className="hover:underline">Prince Ahmed</Link>
               </li>
             </ul>
           </div>
@@ -27,10 +24,10 @@ export const Footer = () => {
             <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
             <ul className="text-gray-600 dark:text-gray-400">
               <li className="mb-4">
-                <Link href="https://github.com/themesberg/flowbite" className="hover:underline ">Github</Link>
+                <Link href="https://www.facebook.com/7SinsEsportsBD" className="hover:underline ">Facebook</Link>
               </li>
               <li>
-                <Link href="https://discord.gg/4eeurUVvTy" className="hover:underline">Discord</Link>
+                <Link href="https://discord.gg/EtV49yw" className="hover:underline">Discord</Link>
               </li>
             </ul>
           </div>

@@ -13,40 +13,20 @@ export default class Achievements extends Component {
     };
     const fadeImages = [
       {
-        url: 'https://scontent.fzyl2-1.fna.fbcdn.net/v/t39.30808-6/278097890_473872354523834_3129887509650538452_n.jpg?stp=dst-jpg_p180x540&_nc_cat=105&ccb=1-5&_nc_sid=8bfeb9&_nc_eui2=AeGJ92_JdZLGBCqAfnczQ_lOkNLzz9-UwVyQ0vPP35TBXAA949TQTV3wuu5srIMu9BXe-5RLoZy7ibZzfgwmHVlh&_nc_ohc=wVKBtJa-hQAAX_wikb_&_nc_ht=scontent.fzyl2-1.fna&oh=00_AT8XukMJbtnRJZ6ZtfRWqI8sZCl90lXmFqo-Jd5VBwEw7Q&oe=6259A81F',
-        caption: 'Slide 1'
+        url: '/images/achieve/pmcc.jpeg',
+        caption: '7Sins Hopeless'
       },
       {
-        url: 'https://scontent.fzyl2-1.fna.fbcdn.net/v/t1.6435-9/200029010_3846857465436700_7435806526592218735_n.jpg?stp=dst-jpg_p180x540&_nc_cat=104&ccb=1-5&_nc_sid=e3f864&_nc_eui2=AeFfoDLSGTtEwC8CEoYM3N9QGq5PFGP-iNUark8UY_6I1cyPy6lITXPLNXQ2YGdW2pyq6UyD3cMdMAjqd89veI5o&_nc_ohc=w5AOtmHqDe0AX9_PVbR&_nc_ht=scontent.fzyl2-1.fna&oh=00_AT9eTXhzXhw4jx4ZJUu1EwJPZ5pz85hJdIeP7byI5cDVGg&oe=627996F6',
-        caption: 'Slide 2'
+        url: '/images/achieve/1.jpg',
+        caption: '7Sins Hopeless'
       },
       {
-        url: 'https://scontent.fzyl2-1.fna.fbcdn.net/v/t39.30808-6/278097890_473872354523834_3129887509650538452_n.jpg?stp=dst-jpg_p180x540&_nc_cat=105&ccb=1-5&_nc_sid=8bfeb9&_nc_eui2=AeGJ92_JdZLGBCqAfnczQ_lOkNLzz9-UwVyQ0vPP35TBXAA949TQTV3wuu5srIMu9BXe-5RLoZy7ibZzfgwmHVlh&_nc_ohc=wVKBtJa-hQAAX_wikb_&_nc_ht=scontent.fzyl2-1.fna&oh=00_AT8XukMJbtnRJZ6ZtfRWqI8sZCl90lXmFqo-Jd5VBwEw7Q&oe=6259A81F',
-        caption: 'Slide 3'
+        url: '/images/achieve/2.jpg',
+        caption: '7Sins Hopeless'
       },
       {
-        url: 'https://scontent.fzyl2-1.fna.fbcdn.net/v/t39.30808-6/278097890_473872354523834_3129887509650538452_n.jpg?stp=dst-jpg_p180x540&_nc_cat=105&ccb=1-5&_nc_sid=8bfeb9&_nc_eui2=AeGJ92_JdZLGBCqAfnczQ_lOkNLzz9-UwVyQ0vPP35TBXAA949TQTV3wuu5srIMu9BXe-5RLoZy7ibZzfgwmHVlh&_nc_ohc=wVKBtJa-hQAAX_wikb_&_nc_ht=scontent.fzyl2-1.fna&oh=00_AT8XukMJbtnRJZ6ZtfRWqI8sZCl90lXmFqo-Jd5VBwEw7Q&oe=6259A81F',
-        caption: 'Slide 1'
-      },
-      {
-        url: 'https://scontent.fzyl2-1.fna.fbcdn.net/v/t1.6435-9/200029010_3846857465436700_7435806526592218735_n.jpg?stp=dst-jpg_p180x540&_nc_cat=104&ccb=1-5&_nc_sid=e3f864&_nc_eui2=AeFfoDLSGTtEwC8CEoYM3N9QGq5PFGP-iNUark8UY_6I1cyPy6lITXPLNXQ2YGdW2pyq6UyD3cMdMAjqd89veI5o&_nc_ohc=w5AOtmHqDe0AX9_PVbR&_nc_ht=scontent.fzyl2-1.fna&oh=00_AT9eTXhzXhw4jx4ZJUu1EwJPZ5pz85hJdIeP7byI5cDVGg&oe=627996F6',
-        caption: 'Slide 2'
-      },
-      {
-        url: 'https://scontent.fzyl2-1.fna.fbcdn.net/v/t39.30808-6/278097890_473872354523834_3129887509650538452_n.jpg?stp=dst-jpg_p180x540&_nc_cat=105&ccb=1-5&_nc_sid=8bfeb9&_nc_eui2=AeGJ92_JdZLGBCqAfnczQ_lOkNLzz9-UwVyQ0vPP35TBXAA949TQTV3wuu5srIMu9BXe-5RLoZy7ibZzfgwmHVlh&_nc_ohc=wVKBtJa-hQAAX_wikb_&_nc_ht=scontent.fzyl2-1.fna&oh=00_AT8XukMJbtnRJZ6ZtfRWqI8sZCl90lXmFqo-Jd5VBwEw7Q&oe=6259A81F',
-        caption: 'Slide 3'
-      },
-      {
-        url: 'https://scontent.fzyl2-1.fna.fbcdn.net/v/t39.30808-6/278097890_473872354523834_3129887509650538452_n.jpg?stp=dst-jpg_p180x540&_nc_cat=105&ccb=1-5&_nc_sid=8bfeb9&_nc_eui2=AeGJ92_JdZLGBCqAfnczQ_lOkNLzz9-UwVyQ0vPP35TBXAA949TQTV3wuu5srIMu9BXe-5RLoZy7ibZzfgwmHVlh&_nc_ohc=wVKBtJa-hQAAX_wikb_&_nc_ht=scontent.fzyl2-1.fna&oh=00_AT8XukMJbtnRJZ6ZtfRWqI8sZCl90lXmFqo-Jd5VBwEw7Q&oe=6259A81F',
-        caption: 'Slide 1'
-      },
-      {
-        url: 'https://scontent.fzyl2-1.fna.fbcdn.net/v/t1.6435-9/200029010_3846857465436700_7435806526592218735_n.jpg?stp=dst-jpg_p180x540&_nc_cat=104&ccb=1-5&_nc_sid=e3f864&_nc_eui2=AeFfoDLSGTtEwC8CEoYM3N9QGq5PFGP-iNUark8UY_6I1cyPy6lITXPLNXQ2YGdW2pyq6UyD3cMdMAjqd89veI5o&_nc_ohc=w5AOtmHqDe0AX9_PVbR&_nc_ht=scontent.fzyl2-1.fna&oh=00_AT9eTXhzXhw4jx4ZJUu1EwJPZ5pz85hJdIeP7byI5cDVGg&oe=627996F6',
-        caption: 'Slide 2'
-      },
-      {
-        url: 'https://scontent.fzyl2-1.fna.fbcdn.net/v/t39.30808-6/278097890_473872354523834_3129887509650538452_n.jpg?stp=dst-jpg_p180x540&_nc_cat=105&ccb=1-5&_nc_sid=8bfeb9&_nc_eui2=AeGJ92_JdZLGBCqAfnczQ_lOkNLzz9-UwVyQ0vPP35TBXAA949TQTV3wuu5srIMu9BXe-5RLoZy7ibZzfgwmHVlh&_nc_ohc=wVKBtJa-hQAAX_wikb_&_nc_ht=scontent.fzyl2-1.fna&oh=00_AT8XukMJbtnRJZ6ZtfRWqI8sZCl90lXmFqo-Jd5VBwEw7Q&oe=6259A81F',
-        caption: 'Slide 3'
+        url: '/images/achieve/3.jpg',
+        caption: '7Sins Hopeless'
       },
     ];
     return (
@@ -54,10 +34,10 @@ export default class Achievements extends Component {
         <h2 className="text-center font-bold text-large md:text-4xl text-gray-400 uppercase py-3 md:p-10 p-2 font-mono"> Latest Achievements </h2>
         <Slider {...settings} classNam="">
          {fadeImages.map(data => (
-           <div className="m-2 gap-2" key={data.caption}>
+           <div className="m-2 gap-2 flex justify-center items-center" key={data.caption}>
              <div className="m-1 pb-5 md:pb-10 md:m-5 bg-gray-800 rounded">
                 <img className="object-scale-down overflow-hidden drop-shadow-lg" src={`${data.url}`} />
-                <p className="pl-2 text-sm md:text-2xl absolute md:bottom-10 text-white font-mono">By {data.caption}</p>
+                <p className="pl-2 text-[12px] md:text-2xl absolute md:bottom-10 text-white font-mono">By {data.caption}</p>
              </div>
           
            </div>
