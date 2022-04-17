@@ -26,7 +26,7 @@ const Welcome = () => {
     <Slide>
      {slideImages.map((slideImage, index)=> (
         <div className="each-slide" key={index}>
-          <div style={{'backgroundImage': `url(${slideImage.url})`}} className='h-[65vh] blur-sm bg-no-repeat bg-cover bg-center'>
+          <div style={{'backgroundImage': `url(${slideImage.url})`}} className='h-[70vh] blur-sm bg-no-repeat bg-cover bg-center'>
               <div className='bg-black opacity-70 w-full h-full'>
               </div>
           </div>

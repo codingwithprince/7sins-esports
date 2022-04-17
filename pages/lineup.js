@@ -1,9 +1,9 @@
 import React from 'react'
-import Hero from '../components/Hero'
+import Lineup from '../components/Lineup'
 
 const lineup = () => {
   return (
-    <Hero />
+    <Lineup />
   )
 }
 

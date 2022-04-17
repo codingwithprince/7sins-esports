@@ -33,23 +33,23 @@ const Lineup = () => {
               ))}
             </Fade>
           </div>
-          <div className="lineup-info flex flex-col items-center text-mono text-white">
-            <h4 className="text-sm text-center uppercase"></h4>
-            <ul className="p-5 list-none font-thin font-mono md:grid-cols-1 grid-cols-2 md:text-2xl grid gap-4">
-              <li className="flex items-center gap-3">
-                <img className="rounded-full h-[50px] w-[50px] md:h-[80px] md:w-[80px]" src="https://scontent.fzyl2-1.fna.fbcdn.net/v/t1.6435-9/123552610_115691940341879_5913008511587889061_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=174925&_nc_eui2=AeH_rkMHoCWe1BvNomvIibCaNhvzILYdXmc2G_Mgth1eZztuCbKGeFbAEuQwoInU8Gwwb2T_2EQw0UtgaCtCllAA&_nc_ohc=3H5POJiuxGsAX_fmcDM&tn=ipdPm1rvROFyNEGq&_nc_ht=scontent.fzyl2-1.fna&oh=00_AT_Vd6YaV-5SFn_gzA69wowvJH1LAmC9XilpUgIuTGgdEA&oe=6280FDCF" alt="" />
+          <div className="lineup-info flex flex-col items-center text-mono text-gray-400">
+            <h4 className="text-sm text-center tracking-wider">Teams</h4>
+            <ul className="p-5 list-none font-thin cursor-pointer  font-mono md:grid-cols-1 grid-cols-2 md:text-2xl grid gap-6">
+              <li className="flex items-center hover:text-blue-500 gap-3">
+                <img className="rounded-full h-[50px] w-[50px]" src="https://scontent.fzyl2-1.fna.fbcdn.net/v/t1.6435-9/123552610_115691940341879_5913008511587889061_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=174925&_nc_eui2=AeH_rkMHoCWe1BvNomvIibCaNhvzILYdXmc2G_Mgth1eZztuCbKGeFbAEuQwoInU8Gwwb2T_2EQw0UtgaCtCllAA&_nc_ohc=3H5POJiuxGsAX_fmcDM&tn=ipdPm1rvROFyNEGq&_nc_ht=scontent.fzyl2-1.fna&oh=00_AT_Vd6YaV-5SFn_gzA69wowvJH1LAmC9XilpUgIuTGgdEA&oe=6280FDCF" alt="" />
                 <p>Guild of 7Sins</p>
               </li>
-              <li className="flex items-center gap-3">
-                <img className="rounded-full h-[50px] w-[50px] md:h-[80px] md:w-[80px]" src="https://scontent.fzyl2-1.fna.fbcdn.net/v/t39.30808-6/269570886_403997121511358_2143729796240922504_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=174925&_nc_eui2=AeFrm5pi0wDFMXE5vMJddIo6-WW-_wu6sMr5Zb7_C7qwygqqcwvARSSgZLJYzgAX0bVYNCT2Z9HQUzYYpVYSI6oV&_nc_ohc=Kb_BzExqyscAX92ZxyT&_nc_ht=scontent.fzyl2-1.fna&oh=00_AT-iYrQnl2asZ8HmBTg8LpxkICH8dLVWPqcRpxPcNNDheg&oe=6261777C" alt="" />
+              <li className="flex items-center hover:text-blue-500 gap-3">
+                <img className="rounded-full  h-[50px] w-[50px] " src="https://scontent.fzyl2-1.fna.fbcdn.net/v/t39.30808-6/269570886_403997121511358_2143729796240922504_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=174925&_nc_eui2=AeFrm5pi0wDFMXE5vMJddIo6-WW-_wu6sMr5Zb7_C7qwygqqcwvARSSgZLJYzgAX0bVYNCT2Z9HQUzYYpVYSI6oV&_nc_ohc=Kb_BzExqyscAX92ZxyT&_nc_ht=scontent.fzyl2-1.fna&oh=00_AT-iYrQnl2asZ8HmBTg8LpxkICH8dLVWPqcRpxPcNNDheg&oe=6261777C" alt="" />
                 <p>7Sins Hopeless</p>
               </li>
-              <li className="flex items-center gap-3">
-                <img className="rounded-full h-[50px] w-[50px] md:h-[80px] md:w-[80px]" src="https://scontent.fzyl2-1.fna.fbcdn.net/v/t39.30808-6/277103183_470066814904388_7841619217095966411_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeFO7SYcUCyrgx06PmHEdfdEty3GfUoFRSK3LcZ9SgVFIsbPKlJdFIBd4FvD0_hTsJVn8m9OTcFc9JWLjcfrL9z2&_nc_ohc=w7ZKFcoIZm4AX9hm5fo&_nc_ht=scontent.fzyl2-1.fna&oh=00_AT812G6jwMGd_z3iIz9YthoW4cKEeU4miMJ5PGR1hniqxg&oe=6260A738" alt="" />
+              <li className="flex items-center hover:text-blue-500 gap-3">
+                <img className="rounded-full h-[50px] w-[50px] " src="https://scontent.fzyl2-1.fna.fbcdn.net/v/t39.30808-6/277103183_470066814904388_7841619217095966411_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeFO7SYcUCyrgx06PmHEdfdEty3GfUoFRSK3LcZ9SgVFIsbPKlJdFIBd4FvD0_hTsJVn8m9OTcFc9JWLjcfrL9z2&_nc_ohc=w7ZKFcoIZm4AX9hm5fo&_nc_ht=scontent.fzyl2-1.fna&oh=00_AT812G6jwMGd_z3iIz9YthoW4cKEeU4miMJ5PGR1hniqxg&oe=6260A738" alt="" />
                 <p>7Sins Platoon</p>
               </li>
-              <li className="flex items-center gap-3">
-                <img className="rounded-full h-[50px] w-[50px] md:h-[80px] md:w-[80px]" src="https://scontent.fzyl2-1.fna.fbcdn.net/v/t39.30808-6/241572060_336486354929102_9156306534247091611_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=8bfeb9&_nc_eui2=AeFaQpf76FSxyFqbXFm7IKgoOsYY05USAqI6xhjTlRICotzrYy9hf6FHp3tLGCcOzjJr9ccZAQz6rG9a0QWGyLSA&_nc_ohc=k_yTpOuTXuMAX-wW1NQ&_nc_ht=scontent.fzyl2-1.fna&oh=00_AT8jrxX_Je98TxPCZrUYNXyzq1Gzltz_2yIgAK4NdVbpsQ&oe=62604360" alt="" />
+              <li className="flex items-center hover:text-blue-500 gap-3">
+                <img className="rounded-full h-[50px] w-[50px] " src="https://scontent.fzyl2-1.fna.fbcdn.net/v/t39.30808-6/241572060_336486354929102_9156306534247091611_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=8bfeb9&_nc_eui2=AeFaQpf76FSxyFqbXFm7IKgoOsYY05USAqI6xhjTlRICotzrYy9hf6FHp3tLGCcOzjJr9ccZAQz6rG9a0QWGyLSA&_nc_ohc=k_yTpOuTXuMAX-wW1NQ&_nc_ht=scontent.fzyl2-1.fna&oh=00_AT8jrxX_Je98TxPCZrUYNXyzq1Gzltz_2yIgAK4NdVbpsQ&oe=62604360" alt="" />
                 <p>7Sins Esports</p>
               </li>
             </ul>
