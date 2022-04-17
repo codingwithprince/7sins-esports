@@ -5,6 +5,8 @@ import Hero from '../components/Hero'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import Welcome from '../components/Welcome';
+import Jersey from '../components/Jersey';
+import Admin from '../components/Admin';
 
 export default function Home() {
   return (
@@ -22,10 +24,13 @@ export default function Home() {
         <div>
           <Hero />
           <Link href='/lineup'>
-            <button className="block text-white m-auto text-xs my-3 bg-transparent border-2 border-cyan-500 shadow-lg shadow-cyan-400/50 px-2 py-2 rounded-md ease-in-out duration-100 uppercase font-mono hover:bg-sky-500">More Details</button>
+            <button className="block text-white m-auto text-xs my-3 bg-cyan-600 hover:bg-transparent border-2 border-cyan-600 shadow-lg  px-2 py-1 rounded-md ease-in-out duration-100 uppercase font-mono hover:bg-sky-500">More Details</button>
           </Link>
         </div>
-      
+        {/* === jersey === */}
+        <Jersey />
+        {/* === Admin === */}
+        <Admin />
       </main>
     </div>
   )
