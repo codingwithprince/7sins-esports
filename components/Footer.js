@@ -45,12 +45,12 @@ export const Footer = () => {
         </div>
 
       </div>
-      <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
-        <div className="sm:flex sm:items-center sm:justify-between">
-          <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2022 <Link href="https://flowbite.com" className="hover:underline">7Sins Esports</Link>. All Rights Reserved.
+      <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
+        <div className="flex flex-col items-center justify-between">
+          <span className="text-sm text-gray-500 sm:text-center ">© 2022 <Link href="https://flowbite.com" className="hover:underline">7Sins Esports</Link>. All Rights Reserved.
           </span>
-          <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0">
-            <p className='text-white'>made by prince</p>
+          <div className="text-gray-300 hover:text-blue-600 font-mono font-bold mt-3">
+           <Link className='text-white' href="https://www.facebook.com/profile.php?id=100008591616145" className="hover:underline">Made By Prince❤️</Link>
           </div>
         </div>
     </div>
