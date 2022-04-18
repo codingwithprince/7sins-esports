@@ -29,28 +29,7 @@ const Admin = () => {
       ];
   return (
     <div className='overflow-hidden'>
-      <h2 className="text-center font-bold text-large md:text-4xl font-mono text-gray-400 uppercase py-3 md:p-10 p-2">Admin</h2>
-        {/* <h2 className="text-center font-bold text-large md:text-4xl font-mono text-gray-400 uppercase py-3 md:p-10 p-2">Admin</h2>
-        <div className='text-center'>
-        <Slider {...settings}>
-         {fadeImages.map(data => (
-           <div className="admin flex items-center p-5 rounded-lg justify-center" key={data.caption}>
-             <div className="header">
-                 <img className='block m-auto rounded-full h-[100px] w-[100px] md:h-[300px] md:w-[300px]' src={`${data.url}`} alt="" />
-             </div>
-             <div className="admin-caption text-center text-white font-bold font-mono">
-                 <h3 className='text-lg'>{data.name}</h3>
-                 <h4>{`( ${data.ign} )`}</h4>
-             </div>
-             <div className="admin-links border-2 border-gray-500 w-[300px] m-auto mt-5 uppercase font-bold font-mono flex justify-evenly">
-                 <a className='text-cyan-600 hover:text-cyan-400' href={`${data.fb}`}>Facebook</a>
-                 <a className='text-red-500 hover:text-red-400' href="#">Instagram</a>
-             </div>
-          
-           </div>
-         ))}
-        </Slider> 
-        </div> */}
+      <h2 className="text-center font-bold text-large md:text-4xl font-mono text-gray-400 uppercase py-10 md:p-10 p-2">Admin</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 justify-items-center">
           {fadeImages.map(d => 
           <div className="admins md:flex">

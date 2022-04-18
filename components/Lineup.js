@@ -11,16 +11,12 @@ const fadeImages = [
     url: 'https://scontent.fzyl2-1.fna.fbcdn.net/v/t39.30808-6/278097890_473872354523834_3129887509650538452_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=8bfeb9&_nc_eui2=AeGJ92_JdZLGBCqAfnczQ_lOkNLzz9-UwVyQ0vPP35TBXAA949TQTV3wuu5srIMu9BXe-5RLoZy7ibZzfgwmHVlh&_nc_ohc=862mWzYSTiIAX9CJSXU&_nc_ht=scontent.fzyl2-1.fna&oh=00_AT87Air39pNt-37weuBuBkEv0F0EfVTtfEm_LseXay22zw&oe=6261911F',
     caption: 'Slide 2'
   },
-  {
-    url: 'https://scontent.fzyl2-1.fna.fbcdn.net/v/t39.30808-6/178090974_292664815977923_3336798476038384368_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=8bfeb9&_nc_eui2=AeExvJehtfrC0WnU_y95HpK6Wt_tHZzP2f1a3-0dnM_Z_TO7ylTHSYRFTQBHx78ifZcsChoTYOB37gtP7VCNTegh&_nc_ohc=HqnySZKV6LEAX_0OZiV&tn=ipdPm1rvROFyNEGq&_nc_ht=scontent.fzyl2-1.fna&oh=00_AT_Yul8ijXwDIFtS3x42cAbAMQ6V-vkH8x1_5-XYSTIHfw&oe=625FE2A0',
-    caption: 'Slide 3'
-  },
 ];
 
 const Lineup = () => {
   return (
     <div className="slide-container md:w-[80%] block m-auto rounded">
-      <h2 className="text-center font-bold text-large md:text-4xl font-mono text-gray-400 uppercase py-3 md:p-10 p-2">Lineup</h2>
+      <h2 className="text-center font-bold text-large md:text-4xl font-mono text-gray-400 uppercase py-10 md:p-10 p-2">Lineup</h2>
       <div className="grid md:grid-cols-2 grid-cols-1 gap-2">
           <div className="lineup-img">
             <Fade>
@@ -35,7 +31,7 @@ const Lineup = () => {
           </div>
           <div className="lineup-info flex flex-col items-center text-mono text-gray-400">
             <h4 className="text-sm text-center tracking-wider">Teams</h4>
-            <ul className="p-5 list-none font-thin cursor-pointer  font-mono md:grid-cols-1 grid-cols-2 md:text-2xl grid gap-6">
+            <ul className="p-5 list-none font-thin uppercase cursor-pointer  font-mono md:grid-cols-1 grid-cols-2 md:text-2xl grid gap-6">
               <li className="flex items-center hover:text-blue-500 gap-3">
                 <img className="rounded-full h-[50px] w-[50px]" src="https://scontent.fzyl2-1.fna.fbcdn.net/v/t1.6435-9/123552610_115691940341879_5913008511587889061_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=174925&_nc_eui2=AeH_rkMHoCWe1BvNomvIibCaNhvzILYdXmc2G_Mgth1eZztuCbKGeFbAEuQwoInU8Gwwb2T_2EQw0UtgaCtCllAA&_nc_ohc=3H5POJiuxGsAX_fmcDM&tn=ipdPm1rvROFyNEGq&_nc_ht=scontent.fzyl2-1.fna&oh=00_AT_Vd6YaV-5SFn_gzA69wowvJH1LAmC9XilpUgIuTGgdEA&oe=6280FDCF" alt="" />
                 <p>Guild of 7Sins</p>

@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Link from "next/link";
-import Achievements from '../components/Achievements'
+import Achievements from '../components/achieve/Achievements'
 import Lineup from '../components/Lineup'
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";

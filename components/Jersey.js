@@ -18,7 +18,7 @@ const Jersey = () => {
 
   return (
     <div className="slide-container md:w-[80%] block m-auto rounded">
-      <h2 className="text-center font-bold text-large md:text-4xl font-mono text-gray-400 uppercase py-3 md:p-10 p-2">Jersey</h2>
+      <h2 className="text-center font-bold text-large md:text-4xl font-mono text-gray-400 uppercase py-10 md:p-10 p-2">Jersey</h2>
       <Fade>
         {fadeImages.map((fadeImage, index) => (
           <div className="each-fade" key={index}>
